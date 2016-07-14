@@ -1,0 +1,173 @@
+@font-face {
+    font-family: Averia;
+    src: url("font/Averia-Regular.ttf");
+}
+
+@font-face {
+    font-family: AgentOrange;
+    src: url("font/AGENTORANGE.TTF");
+}
+
+body{
+    background-color: #f7f4f5;
+}
+
+header{
+
+    margin-bottom: 20px;
+}
+#cabecario_principal{
+
+    width: 100%;
+    height: 300px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 20px;
+
+}
+
+
+#menu_principal{
+
+    width: 300px;
+    height: 100%;
+    float: left;
+}
+#menu_principal .bt{
+    display: block;
+    margin-bottom: 20px;
+}
+
+#menu_principal .bt:hover{
+    -webkit-filter: contrast(4);
+    filter: contrast(4);
+    cursor: pointer;
+}
+
+#logo_principal{
+
+    width: 600px;
+    height: 100%;
+    float: left;
+}
+
+#logo_principal #logo{
+    height: 300px;
+    margin-left: 173px;
+}
+
+
+#menu_secundario{
+
+    width: 300px;
+    height: 100%;
+    float: left;
+    padding-top: 10px;
+}
+
+#menu_secundario .bt{
+
+}
+
+#menu_secundario #menu_social{
+
+    margin-top: 40px;
+
+}
+
+
+
+#menu_secundario #menu_social .bt:hover{
+    -webkit-filter: contrast(2);
+    filter: contrast(2);
+    cursor: pointer;
+}
+
+
+#menu_secundario #container_pesquisa{
+    background-color: #912232;
+
+    border-radius: 30px;
+    width: 220px;
+    height: 30px;
+}
+
+#menu_secundario #container_pesquisa input{
+    border:none;
+    background:transparent;
+    color: #fff;
+    width: 170px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 7px;
+    font-family: Averia;
+}
+
+#menu_secundario #container_pesquisa input:focus{
+    outline:none;
+}
+
+#menu_secundario #container_pesquisa img{
+    margin-top: 5px;
+    float: left;
+}
+
+#menu_secundario #container_pesquisa img:hover{
+  cursor: pointer;
+}
+
+#bt_stackcode{
+
+    margin-top: 50px;
+}
+
+#bt_stackcode:hover{
+    -webkit-filter: contrast(4);
+    filter: contrast(4);
+    cursor: pointer;
+}
+
+
+
+/*Conteudo lista post*/
+
+.conteiner_listpost{
+    color: #fff;
+    margin-left: 120px;
+    /*padding-left: 200px;
+    padding-right: 200px;*/
+    background-color: #912232;
+    height: 200px;
+    width: 1200px;
+    margin-bottom: 10px;
+}
+
+
+.conteiner_listpost .video_preview{
+    height: 100%;
+    width: 300px;
+    float: left;
+    padding:10px
+}
+
+.conteiner_listpost .video_info{
+    height: 100%;
+    width: 650px;
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+.conteiner_listpost .video_info .titulo{
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: AgentOrange
+}
+
+.conteiner_listpost .video_info .descricao{
+    margin-top: 10px;
+    font-family: Averia;
+    word-wrap: break-word;
+}
