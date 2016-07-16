@@ -1,6 +1,7 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <title>Resolve Aê!</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta title="Resolve Aê!">
@@ -8,82 +9,100 @@
     <meta name="author" content="Luis Araujo">
     <!-- meta Open Graph -->
     <meta property="og:locale" content="pt_BR">
-    <meta property="og:url" content="http://www.gia.ifba.edu.br/cete/">
+    <meta property="og:url" content="www.resolveae.com.br">
     <meta property="og:title" content="Acesso o melhor conteúdo sobre resolução de algoritmos">
     <meta property="og:site_name" content="Resolve Aê!">
     <meta property="og:description" content="O seu portal especializado em resolução de questões de Programação!!!">
 
-    <meta property="og:image" content="http://www.gia.ifba.edu.br/cete/logoMeta.jpg">
+    <meta property="og:image" content="">
     <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="600">
     <meta property="og:image:height" content="700">
 
-
+    <link rel="shortcut icon" type="image/png" href="resource/image/icon.png"/>
     <!-- Bootstrap core CSS -->
     <link href="style/reset.css" rel="stylesheet">
     <link href="style/resolveae.css" rel="stylesheet">
     <link href="style/shake.css" rel="stylesheet">
 
     <script src="scripts/jquery-3.0.0.min.js"></script>
+    <script src="scripts/script_botoes.js"></script>
 
 </head>
 <body>
 <header id="cabecario_principal">
     <nav id="menu_principal">
-
-        <img class="bt" src="resource/image/bt_hotcode.png">
-        <img class="bt" src="resource/image/bt_pascal.png">
-        <img class="bt" src="resource/image/bt_cling.png">
-        <img class="bt" src="resource/image/bt_python.png">
+        <img id="btHotCode" class="bt" src="resource/image/bt_hotcode.png">
+        <img id="btPascal" class="bt" src="resource/image/bt_pascal.png">
+        <img id="btC" class="bt" src="resource/image/bt_cling.png">
+        <img id="btPython" class="bt" src="resource/image/bt_python.png">
     </nav>
+
     <div id="logo_principal">
-    <img id="logo" class="shake" src="resource/image/logo_resolveae.png">
+        <img id="logo" class="shake" src="resource/image/logo_resolveae.png">
     </div>
+
     <div  id="menu_secundario">
         <div id="container_pesquisa"> 
             <input id="pesquisapost">
-            <img src="resource/image/bt_pesquisa.png">
+            <img id="btPesquisa" src="resource/image/bt_pesquisa.png">
         </div>
         <nav id="menu_social">
-            <img class="bt" src="resource/image/bt_face.png">
-            <img class="bt" src="resource/image/bt_twitter.png">
-            <img class="bt" src="resource/image/bt_git.png">
+            <img id="btFace" class="bt" src="resource/image/bt_face.png">
+            <img id="btTwitter" class="bt" src="resource/image/bt_twitter.png">
+            <img id="btGithub" class="bt" src="resource/image/bt_git.png">
         </nav>
-        <img class="bt" id="bt_stackcode" src="resource/image/bt_stackcode.png">
+        <img id="btStackCode" class="bt"  src="resource/image/bt_stackcode.png">
     </div>
 </header>
 
 <section class="sessao_conteudo">
 
-    <div class="descricao_sessao"> &lt;HotCode&gt;: Sua sessão de códigos quentinhos, saídos do forno para você!</div>
+    <div id="descricao_sessao"> &lt;HotCode&gt;: Sua sessão de códigos quentinhos, saídos do forno para você!</div>
+    <div id="listpost">
+        <div class="conteiner_listpost">
+            <div class="video_preview">
+                <iframe  src="https://www.youtube.com/embed/bveCJuDj4ik" frameborder="0" allowfullscreen></iframe>
+            </div>
 
-    <div class="conteiner_listpost">
-        <div class="video_preview">
-            <iframe width="280" height="180" src="https://www.youtube.com/embed/bveCJuDj4ik" frameborder="0" allowfullscreen></iframe>
-        </div>
+            <div class="video_info">
+                <div class="cabecario_listapost">
+                    <div class="titulo">
+                        <div class="num hastag"></div>
+                        <div class="num zero"></div>
+                        <div class="num zero"></div>
+                        <div class="num um"></div>
+                    </div>
+                    <div class="tag_video"> Repetição </div>
+                </div>
 
-        <div class="video_info">
-            <div class="titulo">#001</div>
-            <div class="descricao">
-                No planeta Alpha vive a criatura Blobs, que come precisamente 1/2 de seu suprimento de comida disponível todos os dias. Escreva um algoritmo que leia a capacidade inicial de suprimento de comida (em Kg),
-                e calcule quantos dias passarão antes de Blobs coma todo esse suprimento até atingir um quilo ou menos....
+                <div class="descricao">
+                    No planeta Alpha vive a criatura Blobs, que come precisamente 1/2 de seu suprimento de comida disponível todos os dias. Escreva um algoritmo que leia a capacidade inicial de suprimento de comida (em Kg),
+                    e calcule quantos dias passarão antes de Blobs coma todo esse suprimento até atingir um quilo ou menos....
+                </div>
             </div>
         </div>
-    </div>
 
+        <div class="conteiner_listpost">
+            <div class="video_preview">
+                <iframe  src="https://www.youtube.com/embed/bveCJuDj4ik" frameborder="0" allowfullscreen></iframe>
+            </div>
 
+            <div class="video_info">
+                <div class="cabecario_listapost">
+                    <div class="titulo">
+                        <div class="num hastag"></div>
+                        <div class="num zero"></div>
+                        <div class="num zero"></div>
+                        <div class="num dois"></div>
+                    </div>
+                    <div class="tag_video"> Condicional </div>
+                </div>
 
-
-    <div class="conteiner_listpost">
-        <div class="video_preview"">
-            <iframe width="280" height="180" src="https://www.youtube.com/embed/bveCJuDj4ik" frameborder="0" allowfullscreen></iframe>
-        </div>
-
-        <div class="video_info">
-            <div class="titulo">#001</div>
-            <div class="descricao">
-                No planeta Alpha vive a criatura Blobs, que come precisamente 1/2 de seu suprimento de comida disponível todos os dias. Escreva um algoritmo que leia a capacidade inicial de suprimento de comida (em Kg),
-                e calcule quantos dias passarão antes de Blobs coma todo esse suprimento até atingir um quilo ou menos....
+                <div class="descricao">
+                    No planeta Alpha vive a criatura Blobs, que come precisamente 1/2 de seu suprimento de comida disponível todos os dias. Escreva um algoritmo que leia a capacidade inicial de suprimento de comida (em Kg),
+                    e calcule quantos dias passarão antes de Blobs coma todo esse suprimento até atingir um quilo ou menos....
+                </div>
             </div>
         </div>
     </div>
@@ -96,7 +115,7 @@
 
 </section>
 <footer id="rodape">
-    Desenvolvido com muito amor por: <img src="resource/image/logoTeam.png" style="width: 100px"> <br>
+    Desenvolvido com muito  <img src="resource/image/coracao.png" style="width: 13px; top:20px"> por: <img src="resource/image/logoTeam.png" style="width: 100px"> <br>
 </footer>
 
 </body>
