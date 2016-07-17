@@ -14,9 +14,13 @@ body{
 }
 
 
-
 @media screen and (min-width: 1920px) {
+    #btMenu {
+        display: none;
+    }
+
     #cabecario_principal{
+        height: 300px;
         padding-left: 6%;
         padding-top: 5px;
     }
@@ -98,10 +102,21 @@ body{
         margin-top: 50px;
     }
 
+    #menu_secundario #menu_social{
+        margin-top: 40px;
+    }
+
+
 }
 
 @media screen and (min-width: 1425px)  and (max-width: 1919px){
+    #btMenu {
+        display: none;
+    }
+
+
     #cabecario_principal{
+        height: 300px;
         padding-left: 12%;
         padding-top: 5px;
     }
@@ -186,11 +201,21 @@ body{
         margin-top: 50px;
     }
 
+    #menu_secundario #menu_social{
+        margin-top: 40px;
+    }
+
+
 }
 
 
 @media screen and (min-width: 1280px) and (max-width: 1424px) {
+    #btMenu {
+        display: none;
+    }
+
     #cabecario_principal{
+        height: 300px;
         padding-left: 10%;
         padding-top: 5px;
     }
@@ -274,17 +299,27 @@ body{
         margin-top: 50px;
     }
 
+    #menu_secundario #menu_social{
+        margin-top: 40px;
+    }
+
+
 }
 
 
 @media screen and (min-width: 980px) and (max-width: 1279px) {
+    #btMenu {
+        display: none;
+    }
+
     #cabecario_principal{
+        height: 300px;
         padding-left: 3%;
         padding-top: 5px;
     }
 
     #logo_principal{
-        width: 57%;
+        width: calc( 57% - 20px);
     }
 
     #logo_principal #logo{
@@ -353,13 +388,250 @@ body{
     }
 
     #rodape{
-        width: 80%;
+        width: 1000;
         padding-left: 7%;
     }
 
     #btStackCode{
         margin-top: 120px;
     }
+
+    #menu_secundario #menu_social{
+        margin-top: 40px;
+    }
+
+
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width:979px) {
+    #btMenu {
+        display: none;
+    }
+
+    #cabecario_principal{
+        height: 200px;
+        padding-left: 3%;
+        padding-top: 10px;
+    }
+
+    #logo_principal{
+        width: calc( 47% - 20px);
+    }
+
+    #logo_principal #logo{
+        height: 200px;
+        margin-left: calc(50% - 100px);
+    }
+
+    #menu_principal{
+        width: 180px;
+
+    }
+
+    #menu_secundario{
+        width: 220px;
+    }
+
+    .sessao_conteudo{
+        margin-left: 2.5%;
+        margin-top: 5px;
+    }
+
+    #descricao_sessao{
+        font-family: Averia;
+        font-size:20px;
+        color: #912232;
+        margin-bottom: 5px;
+    }
+
+
+    .conteiner_listpost{
+        width: 96%;
+        margin-bottom: 5px;
+    }
+
+    .conteiner_listpost .video_preview iframe{
+        margin-top: 5px;
+        margin-left: 5px;
+        border-radius: 10px;
+        width:240px;
+        height: 190px;
+    }
+
+    .conteiner_listpost .video_info{
+        height: 100%;
+        width: 60%;
+        padding-right: 5px;
+        padding-left: 5px;
+
+    }
+
+    .conteiner_listpost .video_info .titulo{
+        margin-top: 10px;
+        font-size: 30px;
+        font-family: AgentOrange;
+        width:200px;
+        height:20px;
+    }
+
+    .conteiner_listpost .video_preview{
+        height: 100%;
+        width: 270px;
+    }
+
+    .conteiner_vermais{
+        width: 95%;
+    }
+
+    #rodape{
+        width: 85%;
+        padding-left: 7%;
+    }
+
+    #btStackCode{
+        margin-top: 120px;
+    }
+
+
+    #menu_secundario #menu_social .bt{
+        width: 40px;
+        margin-left: 20px;
+    }
+
+    #menu_secundario #menu_social{
+        margin-top: 20px;
+    }
+
+
+    #menu_principal .bt{
+       height: 30px;
+    }
+
+    #btStackCode{
+        margin-top: 50px;
+        height: 30px;
+    }
+
+}
+
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+    #btMenu {
+        display: block;
+    }
+    #cabecario_principal{
+        height: 200px;
+        padding-left: 3%;
+        padding-top: 10px;
+    }
+
+    #logo_principal{
+        width: calc( 54% - 20px);
+    }
+
+    #logo_principal #logo{
+        height: 200px;
+        margin-left: calc(50% - 100px);
+    }
+
+    #menu_principal{
+        width: 100px;
+
+    }
+
+    #btHotCode, #btPascal, #btC, #btPython{
+        display: none;
+    }
+
+    #menu_secundario{
+        width: 60px;
+
+    }
+
+    #menu_secundario .bt{
+        margin-left: 0px;
+    }
+
+    .sessao_conteudo{
+        margin-left: 2.5%;
+        margin-top: 5px;
+    }
+
+    #descricao_sessao{
+        font-family: Averia;
+        font-size:13px;
+        color: #912232;
+        margin-bottom: 5px;
+    }
+
+
+    .conteiner_listpost{
+        width: 96%;
+        margin-bottom: 5px;
+    }
+
+    .conteiner_listpost .video_info{
+        height: 100%;
+        width: 95%;
+        padding-right: 5px;
+        padding-left: 5px;
+
+    }
+
+    .conteiner_listpost .video_info .titulo{
+        margin-top: 10px;
+        font-size: 30px;
+        font-family: AgentOrange;
+        width:200px;
+        height:20px;
+    }
+
+    .conteiner_listpost .video_preview{
+        display: none;
+    }
+
+    .conteiner_vermais{
+        width: 95%;
+    }
+
+    #rodape{
+        width: 85%;
+        padding-left: 7%;
+    }
+
+    #btStackCode{
+        display: none;
+        margin-top: 120px;
+    }
+
+
+    #menu_secundario #menu_social .bt{
+        width: 40px;
+        margin-left: 20px;
+        margin-bottom: 7px;
+    }
+
+    #menu_secundario #menu_social{
+        margin-top: 5px;
+    }
+
+
+    #menu_principal .bt{
+        height: 30px;
+    }
+
+    #btStackCode{
+        margin-top: 50px;
+        height: 30px;
+    }
+
+    #menu_secundario #container_pesquisa{
+     display: none;
+    }
+
+
 
 }
 
@@ -371,7 +643,7 @@ header{
 
 #cabecario_principal{
     width: 100%;
-    height: 300px;
+   /* height: 300px;*/
     padding-right: 190px;
     padding-right: 120px;
 
@@ -384,7 +656,7 @@ header{
 }
 
 #menu_principal .bt{
-    display: block;
+   /* display: block; */
     margin-bottom: 20px;
 }
 
@@ -401,7 +673,7 @@ header{
 }
 
 #logo_principal #logo{
-    height: 300px;
+    /*height: 300px; */
    /* margin-left: 173px; */
 }
 
@@ -411,12 +683,9 @@ header{
     float: left;
 }
 
-#menu_secundario .bt{
-
-}
 
 #menu_secundario #menu_social{
-    margin-top: 40px;
+    /*margin-top: 40px;*/
 }
 
 #menu_secundario #menu_social .bt:hover{
@@ -464,7 +733,6 @@ header{
     filter: contrast(4);
     cursor: pointer;
 }
-
 
 
 /*Conteudo lista post*/
